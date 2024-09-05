@@ -1,5 +1,6 @@
-[gd_scene load_steps=23 format=3 uid="uid://c78ib5m3gtyx4"]
+[gd_scene load_steps=24 format=3 uid="uid://c78ib5m3gtyx4"]
 
+[ext_resource type="Script" path="res://assets/background/background.gd" id="1_ocd6t"]
 [ext_resource type="Texture2D" uid="uid://bcf555d2ujdqq" path="res://assets/background/main_background.png" id="1_x8ikt"]
 [ext_resource type="Texture2D" uid="uid://bkx4b71ima61p" path="res://assets/background/additional/water.png" id="2_h33ss"]
 [ext_resource type="Texture2D" uid="uid://cuw8oqxqliijw" path="res://assets/background/additional/sky.png" id="2_lh5to"]
@@ -81,6 +82,7 @@ animations = [{
 }]
 
 [node name="Background" type="ParallaxBackground"]
+script = ExtResource("1_ocd6t")
 
 [node name="AdditionalWater" type="ParallaxLayer" parent="."]
 motion_scale = Vector2(1, 0.1)
